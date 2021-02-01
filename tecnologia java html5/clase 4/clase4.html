@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>clase 4</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="normalize.css">
+    
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <h3 id="titulo" class="desaparecer">clase 4</h3>
+
+        <figure>
+            <img src="fondo.jpeg" width="80px" alt="" srcset="" id="foto" title="galaxia andromeda" onmouseenter="this.style.width='200px'"
+            onmouseleave="this.style.width='80px'">
+            <!-- this hace referencia al elemento imagen y es lo mismo que document.getElementById('foto') -->
+        </figure>
+        <p>parrafo ejemplo num 1</p>
+        <p>parrafo ejemplo num 2</p>
+        <p>parrafo ejemplo num 3</p>
+        <p class="desaparecer">parrafo ejemplo num 4</p>
+        <p>parrafo ejemplo num 5</p>
+
+
+
+        <!-- cambiamos el texto de html llamodo a la funcion creda en JS -->
+        <button onclick="cambiar()"> cambiar titulo</button>
+
+        <!-- boton ocultar y mostrar imagen -->
+        <button onclick="ocultar()" id="ocultar">ocultar imagen</button>
+       
+
+        <!-- desaparecemos titulo y parrafo con boton -->
+        <button onclick="desaparecerTyP()">desaparecer</button>
+
+        <button onclick="agregar()">agregar</button>
+        
+    </main>
+
+
+    <!-- <script src="clase4.js"></script> -->
+    <script src="clase4-1.js"></script>
+</body>
+</html>

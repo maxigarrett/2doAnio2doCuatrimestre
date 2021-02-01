@@ -1,0 +1,14 @@
+package POOTarea;
+import java.util.ArrayList;
+
+import POOTarea.alumno;
+public class case2 
+{
+	ArrayList<alumno> mialumno=new ArrayList<alumno>();
+	public void borrarTodo() 
+	{
+		mialumno.clear();
+		System.out.println("se borro correctamente");
+		
+	}
+}

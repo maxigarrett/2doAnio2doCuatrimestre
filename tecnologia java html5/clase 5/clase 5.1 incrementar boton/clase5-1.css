@@ -1,0 +1,19 @@
+.div-principaldiv
+{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+[class^="container"]
+{
+    border: 1px solid black;
+    width: 400px;
+    height: 80px;
+    
+}
+
+
+

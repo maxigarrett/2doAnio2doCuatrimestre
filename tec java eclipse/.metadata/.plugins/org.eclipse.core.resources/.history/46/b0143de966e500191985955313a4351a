@@ -1,0 +1,18 @@
+package POOTarea;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class case4
+{
+	ArrayList<alumno> mialumno=new ArrayList<alumno>();
+	Scanner scan=new Scanner(System.in);
+	
+	public void mostrarAlumnoABuscar() 
+	{
+		System.out.println("indique el numero de DNI del alumno");
+		String indice=scan.next();
+		
+		
+	}
+}

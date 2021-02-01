@@ -1,0 +1,6 @@
+nombre kpamsdapellido: oaskd
+edad123
+nombre asd apellido: asd
+ edad 12
+nombre aaaaaa apellido: dddddddd
+ edad 444444444

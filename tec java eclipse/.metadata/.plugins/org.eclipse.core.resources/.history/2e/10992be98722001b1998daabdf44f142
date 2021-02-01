@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="stylesheet" href="styles.css">
+<title>Carga de datos</title>
+</head>
+<body>
+
+	<%@ include file="sup.jsp" %>
+	
+	<% if (session.getAttribute("NombreUsuario") != null){ %>
+	<div class="form-inicio">	
+		<h1>Carga de datos de envío</h1>
+		<form action="cargaDatos.jsp" method="post">
+		
+			<input type="checkbox" name="gamer" value="gamer" >pc gamer
+			<input type="checkbox" name="estandar" value="estandar">estandar
+			<input type="checkbox" name="nootebooks" value="nootebooks">nootebooks
+			<input type="checkbox" name="media" value="media">gama media
+			
+			<input type="submit">
+		
+		</form>
+	</div>
+	
+	<% } %>
+
+</body>
+</html>

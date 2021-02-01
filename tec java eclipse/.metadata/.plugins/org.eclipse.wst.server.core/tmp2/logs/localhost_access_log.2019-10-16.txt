@@ -1,0 +1,17 @@
+127.0.0.1 - - [16/Oct/2019:19:31:49 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:19:31:55 -0300] "GET /primeraWeb1/formGET/segundoejercicioGET/bienvenido.jsp HTTP/1.1" 500 2543
+127.0.0.1 - - [16/Oct/2019:19:41:26 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:19:41:30 -0300] "GET /primeraWeb1/formGET/segundoejercicioGET/primerEjercicio.jsp HTTP/1.1" 200 659
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:19:41:39 -0300] "GET /primeraWeb1/formGET/segundoejercicioGET/bienvenido.jsp?ciudad=moll HTTP/1.1" 500 2543
+127.0.0.1 - - [16/Oct/2019:21:27:31 -0300] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:30:16 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/primerPag.jsp HTTP/1.1" 200 880
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:30:27 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/destino.jsp?nombre=&edad= HTTP/1.1" 200 311
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:30:57 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/destino.jsp?nombre=&edad=&vehiculo=colectivo HTTP/1.1" 200 316
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:31:45 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/destino.jsp HTTP/1.1" 200 311
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:31:58 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/primerPag.jsp HTTP/1.1" 200 884
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:36:09 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/primerPag.jsp HTTP/1.1" 200 897
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:36:17 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/destino.jsp?nombre=&edad=&color=red HTTP/1.1" 200 321
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:36:23 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/destino.jsp?nombre=&edad=&color=red HTTP/1.1" 200 321
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:37:34 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/destino.jsp?nombre=&edad=&color=%233333 HTTP/1.1" 200 323
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:38:16 -0300] "GET /primeraWeb1/formGET/cuartoEjercicio/primerPag.jsp HTTP/1.1" 200 897
+0:0:0:0:0:0:0:1 - - [16/Oct/2019:21:38:23 -0300] "GET /favicon.ico HTTP/1.1" 404 1005

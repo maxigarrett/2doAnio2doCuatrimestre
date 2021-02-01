@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lugares</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../clase 4 tarea entregar/style lugares/style.css">
+</head>
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul class="main-nav_menu">
+                <li class="main-nav_menu_item"><a class="main-nav_menu_item_link" href="index.html">home</a></li>
+                <li class="main-nav_menu_item"><a class="main-nav_menu_item_link" href="texto.html">texto</a></li>
+                <li class="main-nav_menu_item"><a class="main-nav_menu_item_link" href="visual.html">visual</a></li>         
+            </ul>
+        </nav>
+    </header>
+
+    <!-- cuadro de dialogo a la izquierda -->
+    <div class="first-div">
+        <dialog open="" class="first-div_dialog" id="agregarLugar">Lugares que quiero conocer
+                <button onclick="agregarLugaresAConocer()" >agregar</button>
+            <section>
+                <optgroup>
+                    <option value="japon">JAPON</option>
+                    <option value="tailandia">TAILANDIA</option>
+                </optgroup>
+            </section>
+            
+        </dialog>
+    </div>
+
+    <!-- ubicado a la derecha -->
+    <div class="second-div">
+        <dialog open="" class="secon-div_dialog" id="lugareNoGustan">Lugares que no quiero conocer
+                <button onclick="agregarLugaresQNConocer()">agregar</button>
+            <section>
+                <optgroup>
+                    <option value="ee.uu">EE.UU</option>
+                    <option value="africa">Àfrica</option>
+                </optgroup>
+            </section>
+        </dialog>
+    </div>
+    <script src="../clase 4 tarea entregar/JS LUGARES/lugare.js"></script>
+</body>
+</html>

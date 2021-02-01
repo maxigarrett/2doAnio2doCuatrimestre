@@ -1,0 +1,61 @@
+body
+{
+    background-color: rgb(2, 1, 29); 
+}
+
+/* nav pricipal */
+.main-nav
+{
+    width: 1000px;
+    margin: 100px auto;
+    background-color: white;
+}
+/* llamamos al ul dentro de nav */
+.main-nav_menu
+{
+    /* sacamos los puntos marcando los items dentro de la etiqueta ul */
+    list-style: none;
+    
+}
+
+.main-nav :hover
+{
+    color: white;
+    background-color: black;
+    /* transition: all .3s;tarde unas milesimas en aplicar el colo de texto y fondo */
+
+}
+
+/* li  */
+.main-nav_menu_item
+{
+    /* lo coloca en linea de bloque */
+    display: inline-block;
+    
+}
+
+/* a */
+.main-nav_menu_item_link
+{
+    display: block;/*para q funcione se vea el padding sin esto no se ve*/
+    position: relative;
+    left: 240px;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: rgb(31, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;   
+}
+
+
+
+.data-alumno
+{
+    text-align: center;
+    background-color: rgba(43, 38, 112, 0.24);
+    width: 300px;
+    position: absolute;
+    outline: 2px  solid rgb(8, 62, 143);
+    outline-offset: 5px;
+    outline-offset: -17px ;
+}

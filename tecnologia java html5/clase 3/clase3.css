@@ -1,0 +1,70 @@
+h1
+{
+    background-color: red;
+    border-radius: 12px;
+    color: snow;
+}
+p
+{
+    color: rgb(100, 100%, 20%);
+    background-color: hsla(100, 100%, 80%, 50%);
+}
+html
+{
+    background-color: black;
+    background: url("fondo.jpeg");
+    background-repeat: no-repeat;/*no repite la imagen*/
+    background-attachment: fixed;/*la imagen sigue estatica cuando vamos para abajo en nuetra pag web*/
+    background-size: 100%;/*agrandamos a todo el ancho y alto de la pag web*/
+}
+#titulo_1
+{
+    color: yellow;
+    text-decoration: underline;
+    padding: 50px;
+    margin: 120px;/*agranda el margen que hay a las demas cosas por ariiba,abajo izqui,derech*/
+    text-align: center;/*centramos texto al medio*/
+
+}
+
+.parrafo-copados
+{
+    color: blue;
+    text-align: center;
+}
+
+#p3
+{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
+    margin-left: 50%;
+}
+@media(min-width: 300px)
+{
+    #p3
+    {
+        background-color: yellow;
+    }
+}
+
+#div1
+{
+    background-color: red;
+}
+#div2
+{
+    background-color: blue;
+}
+#div3
+{
+    background-color:yellow;
+}
+
+#contenedorDiv
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 20px;
+}

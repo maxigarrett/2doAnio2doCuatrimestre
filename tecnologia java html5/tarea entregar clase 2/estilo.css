@@ -1,0 +1,49 @@
+body
+{
+    background: url(fondo_body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    
+}
+#barra-navegacion
+{
+    background-color: black;
+}
+#barra-navegacion ul 
+{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+   
+}
+#barra-navegacion ul li
+{
+    display: inline-block;
+}
+#barra-navegacion ul li a
+{
+    color: white;
+    display: block;/*para que funcione el pading y construya un bloque a cada link*/
+    padding: 20px 315px;
+    text-decoration: none;
+    
+}
+#barra-navegacion ul li  :hover
+{
+    background-color: aqua;
+    color: black;
+}
+
+#info-persona
+{
+    color: white;
+}
+#marco
+{
+    padding: 40px 450px;
+}
+#marco :hover
+{
+    color: black;
+}

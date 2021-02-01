@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- Armar una página (utilizando el código CSS necesario para que sea sencilla de
+entender) que contenga un formulario para carga de empleados con los siguientes
+campos de ingreso: Nombre (text), apellido (text), edad (number), sexo (radio), email
+(email), fecha de incorporación (date), porcentaje de bonificación (range), un
+selector de color de legajo (color) y un botón de envío (submit). En la página
+siguiente sólo mostrar la información recibida si el usuario tiene menos de 60 años
+(si tiene mas de 60 sólo mostrar nombre, apellido y un letrero de jubilado). -->
+
+	<form action="segundaPag.jsp" method="get">
+		<label for="nombre">Nombre</label>
+	</form>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Datos</title>
+</head>
+<body>
+
+	<%@ include file="sup.jsp" %>
+	
+	<%
+		String gamer = request.getParameter("gamer");
+		String estandar = request.getParameter("estandar");
+		String nootebooks = request.getParameter("nootebooks");
+		String media = request.getParameter("media");
+		
+		//datos de software
+		String windows=request.getParameter("windows");
+		String linux=request.getParameter("linux");
+		
+		//datos de componentes adicionales
+		String procesadori5=request.getParameter("procesadori5");
+		String procesadori6=request.getParameter("procesadori6");	
+		String gpu=request.getParameter("gpu");
+		
+		if(gamer != null)
+		{
+			session.setAttribute("pcgamer", gamer);
+			
+		} if( estandar != null)
+		{
+			session.setAttribute("pcestandar", estandar);
+			
+		} if (nootebooks != null){
+			session.setAttribute("pcnootebooks", nootebooks);
+			
+		} if(media != null){
+			session.setAttribute("pcmedia", media);
+			
+		} if(windows != null){
+			session.setAttribute("pcwindows", windows);
+			
+		} if(linux != null){
+			session.setAttribute("pclinux", linux);
+			
+		}if(procesadori5 != null){
+			session.setAttribute("pci5", procesadori5);
+				
+		} if(procesadori6 != null){
+			session.setAttribute("pci6", procesadori6);
+				
+		} if(gpu != null){
+			session.setAttribute("pcgpu", gpu);
+				
+		}
+		
+		if(gamer !=null || estandar != null || nootebooks != null || media != null ||windows != null ||linux != null || procesadori5 != null || procesadori6 != null || gpu != null )
+		{
+			
+		}
+		
+		//probamos que cargue bien algunas variables(descomentar para verificar)
+		/*String pc=(String) session.getAttribute("pcgamer");
+		String estandarpc=(String) session.getAttribute("pcestandar");
+		String pclinux=(String) session.getAttribute("pclinux");
+		
+		out.print("<h1>"+ pc +"</h1>");
+		out.print("<h2>"+ estandarpc +"</h2>");
+		out.print("<h2>"+ pclinux +"</h2>");*/
+	
+	%>
+	
+	
+
+</body>
+</html>

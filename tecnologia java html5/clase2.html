@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>clase 2</title>
+</head>
+<body>
+   <main>
+<h1 align="center" id="titulo_principal" style="color: red"> clase de tecno java</h1>
+                            <!--para darle espacio--> <!--etiqueta <b> negrita-->
+<p>Lorem ipsum dolor sit &nbsp; &nbsp; &nbsp; amet, consectetur adipisicing elit. Suscipit quo minus deleniti dignissimos,
+ eos <b style="background-color: blue">eligendi</b>  aspernatur! Voluptatem, sit <br><!--forzamos salto de linea-->
+ nobis dicta molestiae iusto laboriosam aut dolorem. Distinctio, optio  veniam? Laboriosam,
+ iste!</p>
+ <p><i>texto en cursiva</i></p>
+                                                    <!--width es el ancho que le damos al ancho -->
+ <div style="margin: 10px; padding: 20px; background-color: red; width:50%; ">esto esta encerrado en un div</div>
+
+ esteparrafo esta dividido por un <div>DIV1</div> aca esta separado por un <span
+ style="color: blue;" id="spam_numero_uno">spam1 </span> span acà
+
+<br>
+ <!--tippo de link absolutos,relativos,internos-->
+ <small><a href="http://www.google.com">enlace a google</a></small><!--absoluto-->
+ <br>
+ <small><a href="primera clase.html">redirigir a otra pag nuestra</a></small><!--relativo-->
+ <br>
+
+ <br>
+    <a href="#redirigir">link interno a redirigir</a>
+    
+<br>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, quam adipisci accusantium at sit eligendi consequuntur 
+    voluptatum animi iste perspiciatis, officiis explicabo natus! Alias iusto unde blanditiis a officia? Deserunt.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem veritatis dicta maxime ea enim adipisci quae ut veniam.
+     Pariatur aliquam, necessitatibus accusantium id earum corporis incidunt quas illum? Incidunt, quis!
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid modi rerum exercitationem dolorem optio sequi officia asperiores
+      et commodi laborum recusandae veritatis, reiciendis accusantium at quis in eligendi molestiae officiis?
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem mollitia sed dolorum odit libero quia nulla eveniet blanditiis eum, 
+      illum facilis tempore animi ex commodi, enim voluptatibus debitis, aliquid voluptatem?
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates vitae praesentium ullam vero quisquam, ipsa eos error earum, 
+      cum assumenda, ducimus natus nam quaerat quis beatae. Reiciendis cupiditate dolorem repellendus.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo laboriosam perferendis in ipsum cupiditate delectus repellendus qu
+      am, similique vero tempora, voluptas, placeat quia numquam sit! Vel modi quis in nulla.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus eveniet, magnam ex ullam saepe quisquam quo laudantium fuga officiis impedit.
+       Reiciendis facere, voluptatibus laborum maxime sapiente sint ut excepturi voluptas?
+      <h2 id="redirigir">redirigir aqui</h2>
+
+      <br>
+      <a href="C:\Users\usuario\Desktop\CURSO HTML5/etiquetasExplicadas.html">pagina dentro de otra carpeta</a>
+      <br>
+      <!--primer atributo la imagen segundo el ancho el tercero el alto y el cuarto si el archivo no
+    existe aparecera el texto de alt y title aparece el texto cuando pasamos el raton por encima-->
+    <div align="center">
+      <img src="fotoGalaxia.jpg" width="50%" height="15%" alt="imagen galaxia" title="imgagen galaxia">
+    </div>
+
+    <table><!--para crear una tabla-->
+        <tr><!--fila de la table table rows-->
+            <td>
+                ALUMNO
+            </td>
+            <td><!--table data(datos de la tabla) le decimos esto es un dato-->
+                NOTA1
+                
+            </td>
+            <td>
+             NOTA2
+                    
+            </td>
+        </tr>
+
+        
+        <tr>
+            <td>
+                juan perez
+                
+            </td>
+            <td>
+              10
+             </td>
+             <td>
+              11
+             </td>
+               
+        </tr>
+    </table>
+
+
+
+    <table border="all"><!--para crear una tabla atributo para encerrar todo con un borde-->
+        <tr><!--fila de la table table rows-->
+            <th><!--table head le -->
+                alumno  
+            </th>
+            <th>
+                NOTA1
+            </th>
+            <th>
+                NOTA2
+            </th>
+            
+        </tr>
+
+        <tr>
+            <th>
+                juan perez
+            </th>
+            <th>
+                10
+            </th>
+            <th>
+                11
+            </th>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <select name="" id=""><!--caja de seleccion o comboBox-->
+        <option value="" disabled> <!--disiable para que no se pueda seleccionar-->
+            Ferrari
+        </option>
+        <option value="" selected> <!--selected para que aparezca primero a la vista-->
+            Ford
+        </option>
+        <option value="">
+            Renault
+        </option>
+    </select>
+
+    <form action="" method="post"><!--formulario de tipo post para no mostrar la info del cliente-->
+        <!--si queremos que ingrese su nombre ponemos que sea tipo texto y segundo atributo muestra
+        la informacion dentro de la caja de texto-->
+        <label for="">Nombre:</label>
+        <input type="text" placeholder="ingrese su nombre"> 
+          
+        <br>
+        <!--le ponemos type pssword para que no muestre la contraseña-->
+        <label for="">Contraseña</label>
+        <input type="password"placeholder="ingrese contraseña">
+<br>
+
+        <input type="date"><!--date para que elija la fecha-->
+        <br>
+        <input type="file"><!--elija una foto-->
+        <br>
+        <input type="submit" value="enviar" ><!--muestra el mensaje dentro del boton q se crea-->
+
+    </form>
+</main> 
+</body>
+</html>
+

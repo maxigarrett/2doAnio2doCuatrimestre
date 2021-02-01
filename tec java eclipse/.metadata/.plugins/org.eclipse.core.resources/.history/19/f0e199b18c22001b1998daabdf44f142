@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+.form-inicio
+{
+	width: 80%;
+	max-width: 600px;
+	margin: auto; 
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 2px 3px  rgba(0, 0, 0, .3); 
+}
+.form-inicio form
+{
+	padding: 30px 0;
+}
+.form-inicio form > input
+{
+	border: none;
+	border-radius: 5px;
+	padding: 10px 5px;
+	margin-bottom: 3px;
+	border: dotted;
+}
+.form-inicio h3
+{
+	animation: colores 2s;
+	animation-timing-function: linear;
+    animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes colores
+{
+  0%
+  {
+    color: black;
+  }
+  50%
+  {
+    color:red;
+  }
+
+}
+
+
+
+/*ESTILOS FORM DE PC QUE DESEA COMPRAR*/
+.form-inicio .form-datos  input[type="checkbox"]
+{
+	display: none;
+}
+.form-inicio .form-datos label
+{
+	 color: #0074D9;
+    display: inline-block;
+    padding: 5px 5px 5px 51px;/*sentido horario*/
+    position: relative;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s ease;
+    font-weight: 600;
+}
+.form-inicio .form-datos label:hover
+{
+	background-color: rgba(0, 116, 217, 0.1);
+}
+.form-inicio .form-datos label::before
+{
+	content:"";
+	display: inline-block;
+    width: 17px;
+    height: 17px;
+    border: 3px solid #0074D9;
+    position: absolute;
+    top: 4px;
+    left: 5px;	
+}
+.form-inicio .form-datos input[type="checkbox"]:checked +label
+{
+	padding: 7px 15px;
+    background-color: #0074D9;
+    color: #fff;
+    border-radius: 2px;
+}

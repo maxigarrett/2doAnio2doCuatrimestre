@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;primeraWeb1/WebContent/formGET/sextoEjercicio&apos; to &apos;sextoySeptimoEjercicio&apos;" description="Rename resource &apos;sextoEjercicio&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="WebContent/formGET/sextoEjercicio" name="sextoySeptimoEjercicio" stamp="1571685347747" updateReferences="true"/>
+</session>

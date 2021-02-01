@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>java</title>
+    <meta charset="UTF-8"><!--para acentos,etc-->
+    <meta name="viewport" content=" whidth=device-whidth" ><!--para que se adapte a otros dispositivos -->
+    <style type="">
+    body 
+    {
+        background-color: hsl(200, 10%, 50%);/*color saturacion brillo 
+        
+        /*exprecion de colores*/ 
+
+        color: #fff;
+        margin: 50px;
+        
+        
+    }
+    button
+    {
+        background-color: blue;
+        border-radius: 18px;
+        color: black;
+        padding: 10px;
+        font-size: 30px;/*agranda la letra*/
+        border-style: hidden;/*sacamos el borde de fondo blanco*/
+
+    }
+    h2
+    {
+        color: yellow;
+    }
+    #parrafito/*id (identificador)*/
+    {
+        background-color: hsl(0, 63%, 31%);
+        
+
+    }
+    .derecha/*nombre de la clase*/
+    {
+        text-align: right;/*alinear derecha el parrafo*/
+    }
+    </style>
+
+        <button onclick="cambiarText()">clikeame</button>
+   
+
+</head>
+<body>
+    <h1 align="center">text h1</h1><!--alinear el texto al centro-->
+    <h2>texto en h2</h2>
+    <p id="parrafito"></p>
+    <p class="derecha">texto alin derecha</p>
+    <p class="derecha">texto tambien derecha</p>
+  
+    <script type=" text/javascript">
+        var texto= 'este texto aun no se muestra';
+        alert('esta es una ventana emergente');
+        console.log('esto funciona');
+        var num1=12;
+        var num2=12;
+        console.log(num1+num2);
+
+        /*cambia el valor de parrafito*/
+        document.getElementById('parrafito').innerHTML='cambiamos el texto original de parrafito';
+
+        function cambiarText()
+        {
+            console.log('el boton fue apretado')
+        }
+    </script>
+
+    <a href="clase2.html">volver a la pagina de la segunda clase</a>
+
+</body>
+</html>

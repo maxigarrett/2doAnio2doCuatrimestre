@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es" dir="auto">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>texto</title>
+    <link rel="stylesheet" href="../normalize.css">
+    <link rel="stylesheet" href="../clase 4 tarea entregar/style texto/style.css">
+</head>
+<!-- NAHUEL NOSE PORQUE AL HACER CLIC EN EL BOTON DE CAMBIAR POR DOS COLORES ALTERNATIVOS HAY QUE CLIQUEAR
+DOS VECES PARA QUE ANDE DESPUES SOLO CON UN CLIC CAMBIA A ROJO Y SU COLOR ORIGINAL -->
+<!-- ponemos este id para cambiar el color del body -->
+<body id="body">
+    <header>
+        <nav class="main-nav">
+            <ul class="main-nav_menu">
+                <li class="main-nav_menu_item"><a class="main-nav_menu_item_link" href="index.html">home</a></li>
+                <li class="main-nav_menu_item"><a class="main-nav_menu_item_link" href="visual.html">viual</a></li>
+                <li class="main-nav_menu_item"><a class="main-nav_menu_item_link" href="lugares.html">lugares</a></li>         
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- titulo -->
+            <h1 class="cambiar-color">titulo de informacion</h1>
+        <article class="main-article">
+            <section>
+                <!-- subtitulo -->
+                <h2 class="cambiar-color"> subtitulo de informacion 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+                  dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+                  suscipit, excepturi ut quidem! Dignissimos, omnis quidem!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+                  dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+                  suscipit, excepturi ut quidem! Dignissimos, omnis quidem!</p>
+            </section>
+            <hr>
+            <section>
+                <h2>informacion 2</h2>
+                <p id="parrafo2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+                 dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+                  suscipit, excepturi ut quidem! Dignissimos, omnis quidem!
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+                  dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+                  suscipit, excepturi ut quidem! Dignissimos, omnis quidem!</p>
+            </section>
+            <section>
+                <h2> informacion 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+                dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+                suscipit, excepturi ut quidem! Dignissimos, omnis quidem!
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+                dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+                suscipit, excepturi ut quidem! Dignissimos, omnis quidem!</p>
+            </section>
+
+            <section>
+             <h2> informacion 4</h2>
+             <p class="cambiar-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+             dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+             suscipit, excepturi ut quidem! Dignissimos, omnis quidem!
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+             dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+             suscipit, excepturi ut quidem! Dignissimos, omnis quidem!</p>
+           </section>
+
+           <section>
+            <h2> informacion 5</h2>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+            dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+            suscipit, excepturi ut quidem! Dignissimos, omnis quidem!
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad officia soluta incidunt
+             dignissimos corporis debitis nihil harum, et quibusdam tempore sint facere aspernatur 
+            suscipit, excepturi ut quidem! Dignissimos, omnis quidem!</p>
+           </section>
+        </article>
+
+        
+    </main>
+    <aside class="main-aside">
+            <button class="cambiar-color" onclick="cambiarFondo()">cambiar color de fondo</button>
+            <button onclick="cambiarPading()">cambiar fondo y pading 2 parrafo</button>
+            <button onclick="cambiaColorParrafo()">cambiar color de texto de parrafos</button>
+            <button id="btOcultar" onclick="ocultarParrafos()">ocultar parrafos</button>
+            <button  onclick="cambiarColorTitulo()">cambiar color titulo subtit</button>
+        </aside>
+
+    <script src="../clase 4 tarea entregar/JS TEXTO/texto.js"></script>
+</body>
+</html>

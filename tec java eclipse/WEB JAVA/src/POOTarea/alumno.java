@@ -1,0 +1,38 @@
+/* 3 desarrollar un programa que administre notas de alumnos (ABM). Mostar un menu con 6 opciones 
+ * 1-cargar 2-borrar 3 modificar,4-buscar 5-mostrar datos 6-salir
+ * la clase alumno debe contener los atributos nombre,aplellido,dni,nota1,nota2 y poder calcular su promedio*/
+package POOTarea;
+
+public class alumno 
+{
+	public alumno()
+	{}
+	String nombre;
+	String apellido;
+	String DNI;
+	int nota1;
+	int nota2;
+	public alumno(String nombre,String apellido,String DNI,int nota1,int nota2) 
+	{
+		this.nombre=nombre;
+		this.apellido=apellido;
+		this.DNI=DNI;
+		this.nota1=nota1;
+		this.nota2=nota2;
+	}
+	
+	
+	public double mostrarPromedio() 
+	{
+		double prom=(this.nota1 + this.nota2)/2;
+		return prom;
+	}
+	
+	public void mostarDatos() 
+	{
+		
+		System.out.println("NOMBRE: " + this.nombre + " APELLIDO " + this.apellido + " DNI: " + this.DNI + " NOTA 1: " + this.nota1 +" NOTA 2: " + this.nota2);
+	}
+	
+	
+}

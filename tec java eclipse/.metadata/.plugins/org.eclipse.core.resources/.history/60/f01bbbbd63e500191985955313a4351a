@@ -1,0 +1,24 @@
+package POOTarea;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class case4
+{
+	ArrayList<alumno> mialumno=new ArrayList<alumno>();
+	Scanner scan=new Scanner(System.in);
+	
+	public void mostrarAlumno() 
+	{
+		System.out.println("indique el numero de alumno a buscar");
+		int indice=scan.nextInt();
+		
+		if(indice==1) 
+		{
+			for(int i=0;i<mialumno.size();i++) 
+			{
+				System.out.println(mialumno.get(0));
+			}
+		}
+	}
+}

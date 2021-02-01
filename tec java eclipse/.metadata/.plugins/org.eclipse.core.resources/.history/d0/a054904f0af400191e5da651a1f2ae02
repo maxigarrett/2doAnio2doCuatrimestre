@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- Codificar un sitio que permita ingresar, el nombre, la edad y 5 checkboxs para que el
+usuario tilde todos los idiomas que habla: Español, inglés, francés, alemán, ruso. En
+la página de destino, mostrar toda la información obtenida. -->
+	<h1>IDIOMAS</h1>
+	<form action="destino.jsp" method="get">
+		<label>ingrese nombre</label>
+		<input type="text" name="nombre">
+		
+		<label>edad</label>
+		<input type="number" name="edad">
+		<br>
+		<input type="checkbox" name="español">ESPAÑOL
+		<input type="checkbox" name="ingles">INGLES
+		<input type="checkbox" name="frances">FRANCES
+		
+		<br>
+		<!-- radio 
+		<input type="radio" name="vehiculo" value="remis">remis
+		<input type="radio" name="vehiculo" value="colectivo">colectivo
+		<input type="radio" name="vehiculo" value="taxi">taxi
+		-->
+		<!--  
+		<input type=color name="color">
+		-->
+		<input type="submit" value="enviar">
+	</form>
+	
+</body>
+</html>
